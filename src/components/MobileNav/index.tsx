@@ -47,12 +47,6 @@ const MobileNav: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
             {" "}
             <HashLink to="/bookings">Reservations</HashLink>{" "}
           </li>
-          <li className="orderBtn">
-            {" "}
-            <HashLink role="button" to="#">
-              Order Online
-            </HashLink>{" "}
-          </li>
         </ul>
       </Menu>
     </Container>
